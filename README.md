@@ -1,2 +1,2 @@
 # Projeto-06-Explorer
-Focus Timer project from Explorer Rocketseat 
+[Focus Timer](https://piluvitu.github.io/Projeto-06-Explorer/) project from Explorer Rocketseat 
