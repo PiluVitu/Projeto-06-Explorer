@@ -36,7 +36,7 @@ export default function Timer({
       }
 
       if (seconds <= 0) {
-        seconds = 5
+        seconds = 60
         --minutes
       }
       updateDisplay(minutes, seconds - 1)

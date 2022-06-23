@@ -21,7 +21,7 @@ export default function Sounds() {
   }
   function bgAudioPressOn() {
     bgAudio.play()
-    bgAudio.loop()
+    bgAudio.loop = true
     buttonPressAudio.volume = 0.5
   }
   function bgAudioPressOff() {
