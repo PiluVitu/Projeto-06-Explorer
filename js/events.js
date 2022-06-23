@@ -40,8 +40,9 @@ export default function Events({ timer, sound, controls }) {
 
   buttonTimer.addEventListener('click', function () {
     let newMinutes = controls.getMinutes()
-    if (!newMinutes) {
+    if (!newMinutes ) {
       timer.resetDisplay()
+      return
     }
 
     timer.updateDisplay(newMinutes, 0)
